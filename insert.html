@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+<html>
+<head>
+ <title> Reistration form</title>
+
+ <style>
+    body{
+        background-color:whitesmoke;
+    }
+    input{
+        width:30%;
+        height:5%;
+        border:1px;
+        border-radius:05px;
+        padding:8px 15px 8px 15px;
+        margin:10px 0px 15px 0px;
+        box-shadow:1px 1px 2px 1px grey;
+    }
+</style>
+
+ </head>
+ <body>
+ <center>
+ <fieldset>
+  <h1>Insertion Data</h1>
+ 
+   <form action="insert.php" method="POST">
+		 
+		<input type="text" name="lname" placeholder="FirstName" value=""required ><br/>
+
+			 
+		<input type="text" name="fname" placeholder="LaststName"  value=""required><br/>
+			 
+		<input type="text" name="mail" placeholder="mail" value=""required><br/>
+
+			 
+		<input type="text" name="mobile" placeholder="phone" value=""required><br/>
+			 
+		<input type="text" name="location" placeholder="Location" value=""required><br/>
+			 
+	 
+    <input type="text" name="status" placeholder="status" value=""required><br/>
+   
+			 
+		<input type="date" name="date" placeholder="date" value=""required><br/>
+				
+			 
+   
+		 		 
+   <input type="Submit" name="submits" value="Submit">
+   
+   
+   
+   </form>
+   </fieldset>
+
+   <a href="delete.html">
+    <button >Delete</button>
+  </a>
+  <a href="update.html">
+    <button>update</button>
+  </a>
+  <a href="display.php">
+    <button>DiSPLAY</button>
+  </a>
+</center>
+    
+ </body>
+</html>
+
+
+ 
